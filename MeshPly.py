@@ -1,8 +1,11 @@
 # Class to read 
+import os
 
 class MeshPly:
-    def __init__(self, filename, color=[0., 0., 0.]):
+    def __init__(self, filename, color=[0., 0., 0.], project_path = None):
 
+        if project_path:
+          filename = os.path.join(project_path, filename)
         f = open(filename, 'r')
         self.vertices = []
         self.colors = []

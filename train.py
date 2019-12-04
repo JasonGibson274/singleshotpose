@@ -45,7 +45,7 @@ def adjust_learning_rate(optimizer, batch):
         param_group['lr'] = lr/batch_size
     return lr
 
-def train(epoch):
+def train(epoch, trainlist):
 
     global processed_batches
     

@@ -1,0 +1,15 @@
+train = /content/drive/My Drive/singleshotpose/cfg/vehicle_train.txt
+valid = /content/drive/My Drive/singleshotpose/cfg/vehicle_test.txt
+backup = /content/drive/My Drive/singleshotpose/backup/vehicle_detection_backup
+
+mesh = /content/drive/My Drive/singleshotpose/cfg/autoRallyPlatform.ply
+
+diam = 0.6
+name = vehicle_detection
+gpus = 0
+width = 1280
+height = 1024
+fx = 852.0367654236857
+fy = 852.0736515102927
+u0 = 626.9338016782257
+v0 = 500.2665457442116
